@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "closest-bike-parking"
+version = "0.0.1"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "closest_bike_parking"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.17"
+frozendict = "^2.3.8"
+pyyaml = "^6.0"
+psycopg2-binary = "^2.9.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

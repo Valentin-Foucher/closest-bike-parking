@@ -1,0 +1,4 @@
+postgres:
+  connection_string: postgresql://localhost:5432/bike-stations
+
+bicycle_station_file: 'data/bicycle_parking.csv'
